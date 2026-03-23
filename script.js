@@ -11,8 +11,8 @@ const posts = [
   },
   {
     title: "Kultowe teksty babci",
-    desc: "https://www.facebook.com/reel/1691980625001195",
-    link: "https://www.facebook.com/"
+    desc: "Bo każda babcia miała swoje powiedzonka",
+    link: "https://www.facebook.com/reel/1691980625001195"
   }
 ];
 
