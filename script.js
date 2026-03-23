@@ -1,8 +1,8 @@
 const posts = [
   {
-    title: "Teksty, które mówiła każda babcia",
-    desc: "Krótka forma, która wywołała lawinę komentarzy.",
-    link: "https://www.facebook.com/"
+    title: "Co mama pakowała dawniej dziecku na szkolną wycieczkę?",
+    desc: "Herbatę dostawaliście w bidonie czy termosie?",
+    link: "https://www.facebook.com/reel/953704023787541"
   },
   {
     title: "Jedzenie w proszku",
