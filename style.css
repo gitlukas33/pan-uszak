@@ -14,7 +14,7 @@ h1, h2, h3 {
 /* HERO */
 
 .hero {
-  height: 20vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
