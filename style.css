@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: #f8f9fc;
+  color: #2a2a2a;
+}
+
+/* NAGŁÓWKI */
+
+h1, h2, h3 {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+/* HERO */
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #eef3ff;
+  background-image: radial-gradient(#d9e4ff 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.hero-box {
+  background: rgba(255,255,255,0.9);
+  padding: 50px;
+  border-radius: 30px;
+  text-align: center;
+
+  box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero h1 {
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+/* BUTTON */
+
+.cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #2a2a2a;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+/* SOCIALS */
+
+.socials {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.social-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.social-grid a {
+  background: white;
+  padding: 12px 20px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ABOUT */
+
+.about {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.about-box {
+  background: white;
+  max-width: 700px;
+  padding: 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.05);
+  animation: float 7s ease-in-out infinite;
+}
+
+/* BLOG */
+
+.blog {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.post {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.25s;
+}
+
+.post:hover {
+  transform: translateY(-6px);
+}
+
+.post img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.post-content {
+  padding: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 30px;
+  opacity: 0.5;
+}
+
+/* ANIMACJA */
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
