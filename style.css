@@ -82,6 +82,13 @@ h1, h2, h3 {
 .social-grid i {
   font-size: 18px;
 }
+.social-grid a:hover {
+  transform: translateY(-3px);
+}
+.social-grid a:hover i.fa-facebook { color: #1877f2; }
+.social-grid a:hover i.fa-instagram { color: #e1306c; }
+.social-grid a:hover i.fa-youtube { color: #ff0000; }
+.social-grid a:hover i.fa-tiktok { color: #000; }
 
 /* ABOUT */
 
