@@ -73,6 +73,15 @@ h1, h2, h3 {
   color: black;
   box-shadow: 0 8px 20px rgba(0,0,0,0.05);
 }
+.social-grid a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.social-grid i {
+  font-size: 18px;
+}
 
 /* ABOUT */
 
