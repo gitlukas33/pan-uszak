@@ -1,17 +1,17 @@
 const posts = [
   {
-    title: "Co mama pakowała dawniej dziecku na szkolną wycieczkę?",
+    title: "Prowiant na szkolną wycieczkę",
     desc: "Herbatę dostawaliście w bidonie czy termosie?",
     link: "https://www.facebook.com/reel/953704023787541"
   },
   {
-    title: "Jedzenie w proszku",
-    desc: "Temat, który wraca częściej niż myślisz.",
-    link: "https://www.facebook.com/"
+    title: "W tajemnicy przed rodzicami",
+    desc: "Czym nie chcieliśmy się chwalić",
+    link: "https://www.facebook.com/reel/1609200820225566"
   },
   {
-    title: "Urodziny kiedyś",
-    desc: "Małe rzeczy, które robiły klimat.",
+    title: "Kultowe teksty babci",
+    desc: "https://www.facebook.com/reel/1691980625001195",
     link: "https://www.facebook.com/"
   }
 ];
